@@ -1,16 +1,37 @@
 .link {
   display: block;
   padding: 0.5rem;
-  border: 1px solid var(--color-button-border);
-  background-color: var(--color-button-bg);
-  color: var(--color-button-text);
+  border-width: 0.2rem;
+  border-style: solid;
   text-align: center;
   text-decoration: none;
   font-size: var(--font-size-button);
+  transition: 100ms;
+  border-radius: 10px;
 }
 
-.link--active {
-  border-color: var(--color-button-disabled-border);
-  background-color: var(--color-button-disabled-bg);
-  color: var(--color-button-disabled-text);
+.link--active--light {
+  border-color: var();
+  background-color:#45c9ba88;
+  color: var(--color-text-l);
+  transform: scale(1.15);
+}
+
+.link--active--dark {
+  border-color: var();
+  background-color: rgb(60, 130, 121);
+  color: var(--color-text-d);
+  transform: scale(1.15);
+}
+
+.link--disabled--light {
+  border-color: var();
+  background-color: rgb(60, 130, 121);
+  color: var(--color-text-l);
+}
+
+.link--disabled--dark {
+  border-color: var();
+  background-color: #45c9ba88;
+  color: var(--color-text-d);
 }
