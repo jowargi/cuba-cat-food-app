@@ -4,13 +4,21 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border: 1px solid var(--color-border);
+  border: 5px solid var(--color-border);
+  border-radius: 5px;
 }
 
 .item:not(:last-child) {
   margin-bottom: 1rem;
 }
 
+/* .item--light {
+  border-color: ;
+} */
+
+.item--dark {
+  border-color: #67daa8;
+}
 .title {
   color: var(--color-text-heading);
   font-size: var(--font-size-h5);
@@ -27,6 +35,13 @@
 }
 
 .ingredients {
-  color: var(--color-text-p);
   font-size: var(--font-size-p);
+}
+
+.ingredients--light {
+  color: var(--color-text-p);
+}
+
+.ingredients--dark {
+  color: rgb(120, 221, 186);
 }

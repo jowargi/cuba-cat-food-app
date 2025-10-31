@@ -4,16 +4,26 @@
   justify-content: space-between;
   align-items: center;
   padding: 1rem;
-  border: 1px solid var(--color-border);
+  border-radius: 5px;
 }
-
+.item--light {
+  border: 5px solid #35616ae8;
+}
+.item--dark {
+  border: 5px solid #77ede9e8;
+}
 .item:not(:last-child) {
   margin-bottom: 1rem;
 }
 
 .text {
-  color: var(--color-text-p);
   font-size: var(--font-size-p);
+}
+.text--light {
+  color: #35616ae8;
+}
+.text--dark {
+  color: #64c7bfe8;
 }
 
 .rating {
