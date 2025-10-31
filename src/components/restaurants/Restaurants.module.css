@@ -2,6 +2,17 @@
   padding: 1rem;
   border: 1px solid var(--color-border);
   background-color: var(--color-section-bg);
+  border-radius: 10px;
+}
+
+.container--light{
+  background-color: #76d4e7e8;
+  border: 5px solid var(--color-main-bg-d);
+}
+
+.container--dark{
+  background-color: #35616ae8;
+  border: 5px solid var(--color-main-bg-d);
 }
 
 .title {
@@ -9,4 +20,13 @@
   color: var(--color-text-heading);
   text-align: center;
   font-size: var(--font-size-h2);
+  font-family: 'Times New Roman', Times, serif
+}
+
+.title--light{
+  color: var(--color-text-l);
+}
+
+.title--dark{
+  color: #a8d8fce8;
 }

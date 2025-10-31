@@ -3,6 +3,7 @@
   border: 1px solid var(--color-border);
   margin: 1rem;
   background-color: var(--color-main-bg);
+  border-radius: 10px;
 }
 
 .title {
@@ -10,8 +11,25 @@
   color: var(--color-text-heading);
   font-size: var(--font-size-h1);
   cursor: pointer;
+  font-family: "Times New Roman", Times, serif;
+}
+.title--light {
+  color: var(--color-text-l);
 }
 
+.header--light {
+  background-color: var(--color-main-bg-l);
+  border: 10px solid var(--color-text-l);
+}
+
+.header--dark {
+  background-color: #49977c;
+  border: 10px solid #25585a;
+}
+
+.title--dark {
+  color: #a8d8fce8;
+}
 .container {
   float: right;
   display: flex;

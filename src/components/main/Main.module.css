@@ -4,4 +4,15 @@
   border: 1px solid var(--color-border);
   margin: 0 1rem;
   background-color: var(--color-main-bg);
+  border-radius: 10px;
+}
+
+.main--light{
+  background-color: var(--color-main-bg-l);
+  border: 5px solid var(--color-text-l);
+}
+
+.main--dark{
+  background-color: #49977c;
+  border: 5px solid #25585a;
 }

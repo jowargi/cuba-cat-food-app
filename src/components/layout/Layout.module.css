@@ -1,4 +1,12 @@
 .container {
   display: flex;
   flex-direction: column;
+  background-color: aliceblue;
+}
+.container--light{
+  background-color: #8adafdb5;
+}
+
+.container--dark{
+  background-color: #446e8ee8;
 }
