@@ -15,6 +15,16 @@
   color: var(--color-text-heading);
   font-size: var(--font-size-h5);
 }
+.title--light {
+  margin-bottom: 1rem;
+  color: var(--color-text-l);
+  font-size: var(--font-size-h4);
+}
+.title--dark {
+  margin-bottom: 1rem;
+  color: var(--color-text-d);
+  font-size: var(--font-size-h4);
+}
 
 .ingredients {
   color: var(--color-text-p);

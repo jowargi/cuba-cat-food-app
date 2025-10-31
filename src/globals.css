@@ -2,11 +2,15 @@
   /* Цвета фона */
   --color-main-bg: #f5f7f9;
   --color-section-bg: #ffffff;
+  --color-main-bg-l:#56cc998b;
+  --color-main-bg-d:#1a5946df;
+
 
   /* Цвета текста */
   --color-text-heading: #2d3748;
   --color-text-p: #4a5568;
-
+  --color-text-l:#245d56;
+  --color-text-d:#26beac;
   /* Цвета кнопок */
   --color-button-bg: #edf2f7;
   --color-button-text: #2d3748;
