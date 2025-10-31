@@ -5,9 +5,9 @@ import classNames from "classnames";
 export default function DishListItem({ dishName, ingredients }) {
   const { themeColor } = useThemeColorContext();
   return (
-    <li className={styles.item}>
+    <li className={classNames(styles.item, styles[`item--${themeColor}`])}>
       <h5 className={classNames(styles.title, styles[`title--${themeColor}`])}>{dishName}</h5>
-      <p className={styles.ingredients}>{ingredients.join(", ")}</p>
+      <p className={classNames(styles.ingredients, styles[`ingredients--${themeColor}`])}>{ingredients.join(", ")}</p>
     </li>
   );
 }

@@ -5,6 +5,13 @@
 
 .title {
   margin-bottom: 1rem;
-  color: var(--color-text-heading);
   font-size: var(--font-size-h4);
+}
+
+.title--light {
+  color: var(--color-text-heading);
+}
+
+.title--dark {
+  color: #8effdb;
 }
